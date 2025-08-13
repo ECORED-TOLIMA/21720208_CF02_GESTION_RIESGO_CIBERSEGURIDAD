@@ -1,6 +1,6 @@
 export default {
   global: {
-    componenteFormativo: 'Nombre_del_recurso_educativo',
+    componenteFormativo: 'PRUEBA INICIAL',
     descripcionCurso: 'Descripción_del_RED',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
