@@ -125,15 +125,263 @@
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0 Tendencias clave del mercado profesional
     p.mb-4 El mercado profesional de la ciberseguridad evoluciona rápidamente, impulsado por la tecnología, la globalización y las nuevas amenazas digitales. A continuación, se destacan algunas de las tendencias clave que marcan su desarrollo: 
-
+    .row.justify-content-center.mb-5
+      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema3/img13.png", alt="alt")
+          .crd_hover_txt--body
+            .tit-tarj.p-3
+              .acordion__accion.acordion__accion__btn--b.h3.mb-0
+                i.fas.fa-angle-up
+              .ubicar
+                h4.mb-3 Crecimiento de las inversiones
+            div.p-3
+              p.mt-3 Las empresas invertirán más de 212,000 millones USD en ciberseguridad en 2025, representando un crecimiento del 11 % interanual.
+      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema3/img14.png", alt="alt")
+          .crd_hover_txt--body
+            .tit-tarj.p-3
+              .acordion__accion.acordion__accion__btn--b.h3.mb-0
+                i.fas.fa-angle-up
+              .ubicar
+                h4.mb-3 Mercado internacionalizado
+            div.p-3
+              p.mt-3 El talento puede acceder a oportunidades laborales globales, gracias a la adopción del trabajo remoto e híbrido, lo que amplifica la competencia, pero también la oferta.
+      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema3/img15.png", alt="alt")
+          .crd_hover_txt--body
+            .tit-tarj.p-3
+              .acordion__accion.acordion__accion__btn--b.h3.mb-0
+                i.fas.fa-angle-up
+              .ubicar
+                h4.mb-3 Automatización e inteligencia artificial
+            div.p-3
+              p.mt-3 Si bien la IA automatiza tareas y redefine algunos perfiles, también abre nuevas áreas de especialización, como la supervisión ética y la ciberdefensa proactiva basada en modelos inteligentes.
+      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/temas/tema3/img16.png", alt="alt")
+          .crd_hover_txt--body
+            .tit-tarj.p-3
+              .acordion__accion.acordion__accion__btn--b.h3.mb-0
+                i.fas.fa-angle-up
+              .ubicar
+                h4.mb-3 Formación continua
+            div.p-3
+              p.mt-3 La actualización constante es obligatoria; empresas y profesionales apuestan por certificaciones, másteres y programas de especialización para adaptarse a un entorno cambiante.
+    p.mb-4 El crecimiento de la ciberseguridad varía según la región, con algunos países destacando por su rápida generación de oportunidades y aumento en inversiones. A continuación, se presenta un panorama internacional y el contexto específico de Colombia: 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10.desktop
+        ImagenInfografica.color-acento-botones
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/temas/tema3/img17.svg', alt='Imagen decorativa')
+          .tarjeta.bgblanco2.p-3(x="83%" y="22%" numero="+")
+            p Colombia se consolida como uno de los mercados con mayor dinamismo en América Latina, impulsado por la acelerada digitalización de empresas, la expansión del comercio electrónico y el aumento tanto en la frecuencia como en la sofisticación de los ciberataques.
+          .tarjeta.bgblanco2.p-3(x="18.4%" y="75%" numero="+")
+            p España y América Latina muestran crecimientos sólidos: España es el segundo país del mundo en ritmo de creación de vacantes, solo superado por México y países como Colombia muestran crecimientos de inversión del 19 % anual, impulsando el desarrollo de talento local.
+      .col-lg-10.movil
+          figure
+            img(src='@/assets/curso/temas/tema3/img17_1.svg', alt='Imagen decorativa')
     
+    p.mb-4 El sector público y privado están incrementando notoriamente su presupuesto, destinado a la protección digital. Por ejemplo, se han realizado inversiones significativas, como la inauguración del Centro de Operaciones de Seguridad Nacional (SOC) con un presupuesto de más de 15,000 millones de pesos, además de importantes iniciativas de empresas privadas. Existe un déficit significativo de profesionales en ciberseguridad. Actualmente, el país puede estar enfrentando una brecha de entre 68,000 y 112,000 vacantes sin cubrir en áreas como ciberseguridad, inteligencia artificial y desarrollo de #[i software]. 
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-10
+        .cajon.color-primario.p-4.mb-4
+          p.mb-0 Esta alta demanda está generando una intensa competencia por el talento, lo que se traduce en oportunidades de empleo bien remuneradas y con excelentes perspectivas de desarrollo profesional. Ciudades como Bogotá, Medellín y Cali son los principales polos de innovación y adopción tecnológica, aunque la región Caribe empieza a mostrar avances llamativos. 
+    .tarjeta-BG02.px-lg-5.px-4
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-3.col-6.mb-4.mb-lg-0(data-aos="flip-up")
+          figure
+            img(src='@/assets/curso/temas/tema3/img18.svg', alt='Imagen decorativa')
+        .col-lg-7
+          p El mercado está compuesto por actores internacionales y locales, con compañías como Fortinet, Cisco, IBM Security y firmas latinoamericanas relevantes. Sin embargo, persisten desafíos como la necesidad de mayor concienciación en pyme, una constante actualización frente a amenazas emergentes y el fortalecimiento de la capacitación y certificación profesional. Colombia dispone de una estrategia nacional de ciberseguridad alineada a marcos globales y con mejoras regulatorias como la Ley 1581 de 2012 sobre protección de datos, lo cual ha favorecido entornos más seguros y fomentado la adopción de buenas prácticas a nivel institucional y empresarial.
+      
+      .row.justify-content-center.align-items-center.mb-5
+        .col-lg-10
+          p Ciberseguridad es, hoy más que nunca, una “apuesta segura” en términos profesionales: alta empleabilidad, oportunidades de rápido ascenso, salarios competitivos y la posibilidad de innovar y liderar cambios en todas las industrias. Quienes se formen y especialicen en este campo no solo aseguran su futuro profesional, sino que se convierten en piezas clave de la resiliencia y el desarrollo económico global.
+
     separador
     #t_3_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.2	Certificaciones en ciberseguridad: tipos y requisitos
-
+    p Las certificaciones en ciberseguridad son credenciales reconocidas internacionalmente que validan el nivel de conocimiento, experiencia y habilidades técnicas de los profesionales en protección digital. Se han convertido en un requisito cada vez más común para acceder a mejores oportunidades laborales o para especializarse en distintos ámbitos de la seguridad informática. 
+    p.mb-4 A continuación, se presentan los principales tipos de certificaciones, su perfil y requisitos generales:
+    .titulo-sexto.color-acento-contenido(data-aos="fade-right")
+      h5 Tabla 3.
+      i Tipos y perfil de certificaciones
+    .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in")
+      table(alt="Texto alternativo tabla")
+        thead
+          tr
+            th Certificación
+            th Tipo/especialidad
+            th Perfil/requisitos principales
+        tbody
+          tr
+            td #[b CompTIA Security+]
+            td Básica, generalista.
+            td Recomendado: 2 años en TI, sin requisito formal, examen teórico.
+          tr
+            td #[b CISSP (ISC)]
+            td Gestión y arquitectura de seguridad.
+            td 5 años experiencia en seguridad, aprobar examen, adherirse a código ético.
+          tr
+            td #[b CEH (Certified Ethical Hacker)]
+            td Hacking ético y pruebas ofensivas.
+            td Experiencia en TI o curso oficial, aprobar examen práctico.
+          tr
+            td #[b CISM (ISACA)]
+            td Gestión, dirección de seguridad.
+            td 5 años de experiencia en gestión seguridad TI, aprobar examen.
+          tr
+            td #[b CRISC (ISACA)]
+            td Gestión de riesgos.
+            td 3 años experiencia en control y riesgo de TI, aprobar examen.
+          tr
+            td #[b GSEC (GIAC)]
+            td Técnicas esenciales seguridad.
+            td Sin requisito formal, recomendado experiencia en TI. Examen teórico.
+          tr
+            td #[b OSCP (Offensive Security)]
+            td Pentesting, auditoría técnica avanzada.
+            td Experiencia recomendada; examen práctico de hacking en entorno real.
+          tr
+            td #[b CCSP (Certified Cloud Security Professional)]
+            td Seguridad en la nube.
+            td Experiencia en TI/nube, aprobar examen internacional.
+          tr
+            td #[b CySA+ (CompTIA)]
+            td Detección y respuesta a amenazas.
+            td 3-4 años en seguridad, examen teórico.
+          tr
+            td #[b CHFI (EC-Council)]
+            td Informática forense.
+            td Experiencia en forense digital; examen y formación opcional.
+    p.mb-4 De acuerdo a lo anterior, se relaciona la clasificación general de certificaciones, según sus objetivos: 
+    .tarjeta--BG053.px-md-5.mb-5
+      .row.justify-content-center.align-items-center.my-lg-5.my-4
+        .col-lg-4.col-md-8.col-sm-6.mb-md-4.mb-sm-4.desktop(data-aos="fade-left")
+          figure
+            img(src='@/assets/curso/temas/tema3/img19.png', alt='Imagen decorativa' style='margin-bottom: -23px;')
+        .col-lg-8(data-aos="fade-left")
+          SlyderF.color-acento-botones(columnas="col-lg-6 col-xl-6")
+            .tarjeta.bgblanco3.p-4
+              .row.justify-content-center.mb-3
+                .col-4
+                  img(src='@/assets/curso/temas/tema3/img20.svg' alt='AvatarTop')
+              h5.text-center Nivel básico y fundamental
+              p.text-center CompTIA Security+, GSEC, CCT. Aptas para principiantes.
+            .tarjeta.bgblanco3.p-4
+              .row.justify-content-center.mb-3
+                .col-4
+                  img(src='@/assets/curso/temas/tema3/img21.svg' alt='AvatarTop')
+              h5.text-center  Defensa y análisis
+              p.text-center CySA+, GCIH (gestión de incidentes), GSEC.
+            .tarjeta.bgblanco3.p-4
+              .row.justify-content-center.mb-3
+                .col-4
+                  img(src='@/assets/curso/temas/tema3/img22.svg' alt='AvatarTop')
+              h5.text-center Ofensiva y pentesting
+              p.text-center CEH, OSCP, PenTest+.
+            .tarjeta.bgblanco3.p-4
+              .row.justify-content-center.mb-3
+                .col-4
+                  img(src='@/assets/curso/temas/tema3/img23.svg' alt='AvatarTop')
+              h5.text-center Gestión y gobierno
+              p.text-center CISSP, CISM, CRISC, CCISO.
+            .tarjeta.bgblanco3.p-4
+              .row.justify-content-center.mb-3
+                .col-4
+                  img(src='@/assets/curso/temas/tema3/img24.svg' alt='AvatarTop')
+              h5.text-center Cloud y tecnologías específicas
+              p.text-center CCSP, AWS Security Specialty, Azure Security Engineer.
+            .tarjeta.bgblanco3.p-4
+              .row.justify-content-center.mb-3
+                .col-4
+                  img(src='@/assets/curso/temas/tema3/img25.svg' alt='AvatarTop')
+              h5.text-center Forense y análisis post incidente
+              p.text-center CHFI, GCFA.
+    .tarjeta-BG02.px-lg-5.px-4
+      .row.justify-content-center.align-items-center
+        .col-lg-3.col-6.mb-4.mb-lg-0(data-aos="flip-up")
+          figure
+            img(src='@/assets/curso/temas/tema3/img26.svg', alt='Imagen decorativa')
+        .col-lg-7
+          p Asimismo, se deben tener en cuenta los siguientes requisitos generales
+          ul.lista-ul--color
+            li
+              i.fas.fa-hand-point-right
+              p.mb-0 La mayoría de certificaciones avanzadas requieren experiencia profesional (de 2 a 5 años), superar un examen extenso o práctico y en algunos casos, firmar y cumplir un código ético.
+            li
+              i.fas.fa-hand-point-right
+              p.mb-0 Las certificaciones técnicas ofensivas suelen requerir aprobar pruebas prácticas en entornos reales simulados.
+            li
+              i.fas.fa-hand-point-right
+              p.mb-0 Las de gestión (CISM, CRISC, CISSP) se centran en la experiencia en roles de liderazgo, dirección o gestión integral de la seguridad de la información.
+            li
+              i.fas.fa-hand-point-right
+              p.mb-0 Certificaciones fundamentales o junior, exigen menos experiencia, aunque se recomienda formación básica en TI.
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.3	Educación formal y rutas de formación en ciberseguridad
+    p.mb-4 La educación formal y las rutas de formación en ciberseguridad, ofrecen hoy un abanico amplio y flexible para quienes desean ingresar, especializarse o avanzar dentro de este dinámico campo profesional, sin importar su punto de partida.
+
+    .titulo.mb-5(data-aos="fade-left")
+      img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
+      h5.mb-0 Educación formal en ciberseguridad
+    p.mb-4 La formación académica en ciberseguridad ofrece múltiples alternativas según el nivel de especialización y el enfoque profesional deseado. A continuación, se presentan los principales tipos de programas y su orientación: 
+    .tarjeta.tarjeta--BG01.p-5.mb-5(data-aos="zoom-in")
+      SlyderA(tipo="b")
+        .row.justify-content-center
+          .col-lg-6.order-lg-1.order-2
+            h4 Grado universitario
+            p.mb-0 Existen programas de pregrado específicamente diseñados para formar profesionales en ciberseguridad, orientados tanto al desarrollo técnico como a la gestión estratégica. Estos estudios suelen incluir materias como redes, programación segura, criptografía, gestión de riesgos y protección de datos.
+          .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src='@/assets/curso/temas/tema3/img27.png' alt="Imagen decorativa")
+        .row.justify-content-center
+          .col-lg-6.order-lg-1.order-2
+            h4 Ingenierías con énfasis en seguridad
+            p.mb-0 Algunos programas de ingeniería han incorporado énfasis o módulos en ciberseguridad, abarcando el diseño y operación de infraestructuras digitales seguras, la prevención de ataques y la evaluación de vulnerabilidades.
+          .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src='@/assets/curso/temas/tema3/img28.png' alt="Imagen decorativa")
+        .row.justify-content-center
+          .col-lg-6.order-lg-1.order-2
+            h4 Especializaciones y maestrías
+            p.mb-0 A nivel posgrado, la formación se vuelve más específica y estratégica. Las especializaciones profundizan en áreas clave, como análisis de amenazas, investigación forense digital, diseño de políticas y gobierno de la seguridad. Las maestrías suelen incorporar tanto aspectos técnicos avanzados como gestión, cumplimiento de normativas y liderazgo para preparar a quienes aspiran a roles directivos o de consultoría.
+          .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src='@/assets/curso/temas/tema3/img29.png' alt="Imagen decorativa")
+        .row.justify-content-center
+          .col-lg-6.order-lg-1.order-2
+            h4 Diplomados y cursos institucionales
+            p.mb-0 Además de titulaciones tradicionales, muchas instituciones han diseñado diplomados, talleres y programas de capacitación para empresas, reforzando tanto competencias técnicas como una cultura organizacional centrada en la seguridad.
+          .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4
+            img(src='@/assets/curso/temas/tema3/img30.png' alt="Imagen decorativa")
+    .titulo.mb-5(data-aos="fade-left")
+      img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
+      h5.mb-0 Rutas de formación profesional y continua
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8.order-lg-1.order-2(data-aos="fade-left")
+        AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
+          div(titulo="Formaciones modulares escalables")
+            p.mb-0 Existen rutas de aprendizaje que permiten avanzar paso a paso, comenzando con fundamentos básicos y progresando hacia la defensa, el monitoreo, el desarrollo seguro de software, el análisis forense y la simulación de ataques, según el área de interés.
+          div(titulo="Rutas especializadas: Blue team y Red team")
+            p.mb-0 Algunas trayectorias educativas permiten optar por especializaciones prácticas en defensa (Blue team: monitoreo, respuesta a incidentes, administración de sistemas seguros) o ataque (Red team: pruebas de penetración, evaluación de seguridad ofensiva).
+          div(titulo="Cursos cortos, microcertificaciones y formación en línea")
+            p.mb-0 La oferta online facilita adquirir conocimientos actualizados, a través de cursos breves, certificaciones modulares, laboratorios virtuales, simulaciones realistas y retos de hacking ético. Este formato es ideal para quienes desean compatibilizar la formación con la vida laboral o actualizarse de manera continua en nuevas tecnologías y amenazas.
+          div(titulo="Aprendizaje autodirigido")
+            p.mb-0 Los recursos abiertos y gratuitos, como plataformas educativas y comunidades de ciberseguridad, complementan la formación formal y permiten practicar habilidades en escenarios prácticos.
+      .col-lg-4.col-sm-6.col-8.order-lg-2.order-1.mb-md-4(data-aos="zoom-in")
+        figure
+          img(src='@/assets/curso/temas/tema3/img31.png', alt='Texto que describa la imagen')
 </template>
 
 <script>
