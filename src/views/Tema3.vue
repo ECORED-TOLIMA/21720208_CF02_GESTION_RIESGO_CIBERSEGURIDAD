@@ -63,7 +63,7 @@
           .col-lg-6.col-sm-4.col-6
             img(src='@/assets/curso/temas/tema3/img8.svg' alt='AvatarTop')
         h5.text-center Crecimiento de roles híbridos
-        p.text-center.mb-0  Expertos en seguridad con foco en IA, big data, protección de infraestructuras críticas, seguridad de IoT, cloud, blockchain, etc. 
+        p.text-center.mb-0  Expertos en seguridad con foco en IA, #[i big data], protección de infraestructuras críticas, seguridad de #[i IoT], #[i cloud], #[i blockchain], etc. 
       .tarjeta.tarjeta--BG02.p-4
         .row.justify-content-center.mb-3
           .col-lg-6.col-sm-4.col-6
@@ -90,13 +90,13 @@
     .tarjeta-BG02.px-lg-5.px-4
       #t_3_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 3.1 Panorama del mercado profesional de la ciberseguridad
-      p.mb-4 El mercado profesional de la ciberseguridad en la actualidad atraviesa un momento de auge sin precedentes, caracterizado por una demanda creciente de talento, salarios atractivos y enormes oportunidades de desarrollo profesional. Este sector se consolida como uno de los más dinámicos y estratégicos dentro del ecosistema digital global, impulsado por la acelerada transformación digital, la sofisticación de las amenazas y la obligatoriedad regulatoria en múltiples industrias.
+      p.mb-5 El mercado profesional de la ciberseguridad en la actualidad atraviesa un momento de auge sin precedentes, caracterizado por una demanda creciente de talento, salarios atractivos y enormes oportunidades de desarrollo profesional. Este sector se consolida como uno de los más dinámicos y estratégicos dentro del ecosistema digital global, impulsado por la acelerada transformación digital, la sofisticación de las amenazas y la obligatoriedad regulatoria en múltiples industrias.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .titulo.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
           h5.mb-0 Alta demanda y brecha de talento
-        p.mb-4 La escasez de profesionales, es uno de los retos más destacados en la actualidad: como se mencionó previamente, la brecha global alcanza los 3.5 millones de vacantes sin cubrir, según reportes de la industria. El incremento de ataques cibernéticos —en particular ransomware y amenazas avanzadas a infraestructuras críticas— ha hecho que la protección digital sea una prioridad, incluso para pequeñas y medianas empresas, sectores financieros, sanitarios y gobiernos. Esta situación convierte la ciberseguridad en una carrera de futuro casi garantizado, con enorme proyección de empleabilidad y altos niveles de estabilidad laboral.
+        p.mb-5 La escasez de profesionales, es uno de los retos más destacados en la actualidad: como se mencionó previamente, la brecha global alcanza los 3.5 millones de vacantes sin cubrir, según reportes de la industria. El incremento de ataques cibernéticos —en particular #[i ransomware] y amenazas avanzadas a infraestructuras críticas— ha hecho que la protección digital sea una prioridad, incluso para pequeñas y medianas empresas, sectores financieros, sanitarios y gobiernos. Esta situación convierte la ciberseguridad en una carrera de futuro casi garantizado, con enorme proyección de empleabilidad y altos niveles de estabilidad laboral.
         .titulo.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
           h5.mb-0 Perfiles y habilidades más demandados
@@ -236,7 +236,7 @@
             td 5 años experiencia en seguridad, aprobar examen, adherirse a código ético.
           tr
             td #[b CEH (Certified Ethical Hacker)]
-            td Hacking ético y pruebas ofensivas.
+            td #[i Hacking] ético y pruebas ofensivas.
             td Experiencia en TI o curso oficial, aprobar examen práctico.
           tr
             td #[b CISM (ISACA)]
@@ -252,8 +252,8 @@
             td Sin requisito formal, recomendado experiencia en TI. Examen teórico.
           tr
             td #[b OSCP (Offensive Security)]
-            td Pentesting, auditoría técnica avanzada.
-            td Experiencia recomendada; examen práctico de hacking en entorno real.
+            td #[i Pentesting], auditoría técnica avanzada.
+            td Experiencia recomendada; examen práctico de #[i hacking] en entorno real.
           tr
             td #[b CCSP (Certified Cloud Security Professional)]
             td Seguridad en la nube.
@@ -290,7 +290,7 @@
               .row.justify-content-center.mb-3
                 .col-4
                   img(src='@/assets/curso/temas/tema3/img22.svg' alt='AvatarTop')
-              h5.text-center Ofensiva y pentesting
+              h5.text-center Ofensiva y #[i pentesting]
               p.text-center CEH, OSCP, PenTest+.
             .tarjeta.bgblanco3.p-4
               .row.justify-content-center.mb-3
@@ -333,7 +333,7 @@
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.3	Educación formal y rutas de formación en ciberseguridad
-    p.mb-4 La educación formal y las rutas de formación en ciberseguridad, ofrecen hoy un abanico amplio y flexible para quienes desean ingresar, especializarse o avanzar dentro de este dinámico campo profesional, sin importar su punto de partida.
+    p.mb-5 La educación formal y las rutas de formación en ciberseguridad, ofrecen hoy un abanico amplio y flexible para quienes desean ingresar, especializarse o avanzar dentro de este dinámico campo profesional, sin importar su punto de partida.
 
     .titulo.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
@@ -368,15 +368,16 @@
     .titulo.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0 Rutas de formación profesional y continua
+    p.mb-5 La formación en ciberseguridad no sigue un único camino; existen diversas rutas que permiten desarrollar competencias, según los intereses, el nivel de experiencia y las metas profesionales de cada persona. Por ello, se presentan las principales alternativas de formación y actualización continua: 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.order-lg-1.order-2(data-aos="fade-left")
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="Formaciones modulares escalables")
             p.mb-0 Existen rutas de aprendizaje que permiten avanzar paso a paso, comenzando con fundamentos básicos y progresando hacia la defensa, el monitoreo, el desarrollo seguro de software, el análisis forense y la simulación de ataques, según el área de interés.
-          div(titulo="Rutas especializadas: Blue team y Red team")
-            p.mb-0 Algunas trayectorias educativas permiten optar por especializaciones prácticas en defensa (Blue team: monitoreo, respuesta a incidentes, administración de sistemas seguros) o ataque (Red team: pruebas de penetración, evaluación de seguridad ofensiva).
+          div(titulo="Rutas especializadas: #[i Blue team] y #[i Red team]")
+            p.mb-0 Algunas trayectorias educativas permiten optar por especializaciones prácticas en defensa (#[i Blue team]: monitoreo, respuesta a incidentes, administración de sistemas seguros) o ataque (Red team: pruebas de penetración, evaluación de seguridad ofensiva).
           div(titulo="Cursos cortos, microcertificaciones y formación en línea")
-            p.mb-0 La oferta online facilita adquirir conocimientos actualizados, a través de cursos breves, certificaciones modulares, laboratorios virtuales, simulaciones realistas y retos de hacking ético. Este formato es ideal para quienes desean compatibilizar la formación con la vida laboral o actualizarse de manera continua en nuevas tecnologías y amenazas.
+            p.mb-0 La oferta #[i online] facilita adquirir conocimientos actualizados, a través de cursos breves, certificaciones modulares, laboratorios virtuales, simulaciones realistas y retos de #[i hacking] ético. Este formato es ideal para quienes desean compatibilizar la formación con la vida laboral o actualizarse de manera continua en nuevas tecnologías y amenazas.
           div(titulo="Aprendizaje autodirigido")
             p.mb-0 Los recursos abiertos y gratuitos, como plataformas educativas y comunidades de ciberseguridad, complementan la formación formal y permiten practicar habilidades en escenarios prácticos.
       .col-lg-4.col-sm-6.col-8.order-lg-2.order-1.mb-md-4(data-aos="zoom-in")

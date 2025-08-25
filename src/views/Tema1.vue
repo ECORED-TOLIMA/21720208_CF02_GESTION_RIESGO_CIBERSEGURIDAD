@@ -19,7 +19,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="1246" height="701" src="https://www.youtube.com/embed/gaIBAjLKUBE" title="Análisis forense y profesionalización en ciberseguridad  - Caso 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
     .titulo.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0 Caso # 2
@@ -27,7 +27,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="1246" height="701" src="https://www.youtube.com/embed/LzvHFdnPJlQ" title="Análisis forense y profesionalización en ciberseguridad  - Caso 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
 
     separador
     .tarjeta-BG02.px-lg-5.px-4
@@ -91,7 +91,7 @@
             ul.lista-ul--color
               li
                 i.fas.fa-hand-point-right
-                | Clonar el contenido de un smartphone, usando herramientas forenses.
+                | Clonar el contenido de un #[i smartphone], usando herramientas forenses.
               li
                 i.fas.fa-hand-point-right
                 | Extraer archivos de un servidor utilizando técnicas que evitan modificar los datos originales.
@@ -217,19 +217,19 @@
                 ul.lista-ul--color
                   li
                     i.fas.fa-circle
-                    p.mb-0  #[b Recolección de evidencia]: se efectúan copias forenses bit a bit de discos duros, memoria RAM, registros de red y cualquier dato potencialmente útil, asegurando la cadena de custodia.
+                    p.mb-0  #[b Recolección de evidencia]: se efectúan copias forenses #[i bit] a #[i bit] de discos duros, memoria RAM, registros de red y cualquier dato potencialmente útil, asegurando la cadena de custodia.
                   li
                     i.fas.fa-circle
                     p.mb-0  #[b Etiquetado y documentación]: cada evidencia se archiva y etiqueta meticulosamente, detallando fecha, hora, responsable y condiciones de recolección.
                   li
                     i.fas.fa-circle
-                    p.mb-0  #[b Verificación de integridad]: se usan hash criptográficos (MD5, SHA-1, SHA-256) para garantizar que la evidencia no sea alterada durante el análisis.
+                    p.mb-0  #[b Verificación de integridad]: se usan #[i hash] criptográficos (MD5, SHA-1, SHA-256) para garantizar que la evidencia no sea alterada durante el análisis.
                   li
                     i.fas.fa-circle
                     p.mb-0  #[b Análisis preliminar]: se visualizan logs iniciales buscando actividad sospechosa (inicios de sesión, conexiones externas, eliminación de archivos).
                   li
                     i.fas.fa-circle
-                    p.mb-0  #[b Hipótesis de ataque]: el equipo desarrolla hipótesis sobre cómo ocurrió el incidente: vía externa, interna, malware, ingeniería social, etc.
+                    p.mb-0  #[b Hipótesis de ataque]: el equipo desarrolla hipótesis sobre cómo ocurrió el incidente: vía externa, interna, #[i malware], ingeniería social, etc.
     
             .col-lg-12.order-lg-3.order-1.mb-md-4
               figure
@@ -266,7 +266,7 @@
                     p.mb-0  #[b Recuperación:] los sistemas vuelven a la normalidad bajo monitorización continua.
                   li
                     i.fas.fa-circle
-                    p.mb-0  #[b Evaluación de daños:] se analiza el alcance del incidente:] impacto financiero, operativo, de reputación y legal.
+                    p.mb-0  #[b Evaluación de daños:] se analiza el alcance del incidente: impacto financiero, operativo, de reputación y legal.
                   li
                     i.fas.fa-circle
                     p.mb-0  #[b Reporte forense:] se elabora un informe detallado, claro y entendible, que incluya cronología, técnicas usadas, descubrimientos, evidencia documental y conclusiones.
@@ -327,7 +327,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img13.jpg', alt="Imagen decorativa")
     p.mb-4 Ahora bien, imagine una empresa en pleno funcionamiento cuando, de repente, suena una alarma: el equipo de monitoreo detecta movimientos sospechosos en uno de sus servidores críticos. Inicia entonces la siguiente historia de detectives digitales: 
-    .tarjeta--BG03.px-lg-4.p-4.mb-5
+    .tarjeta--BG013.px-lg-4.p-4.mb-5
       SlyderE(indicadores="izquierda")
         .row
           .col-lg-4
@@ -403,7 +403,7 @@
                 i.fas.fa-angle-right
                 p.mb-0 #[b ISO/IEC 27041:2015:] establece directrices sobre la garantía de idoneidad y eficacia de los métodos y herramientas utilizadas en investigaciones digitales.
 
-      .py-4.py-md-5.p-4(titulo="Regulaciones y estándares tecnológicos:" :icono="require('@/assets/curso/temas/tema1/img25.svg')")
+      .py-4.py-md-5.p-4(titulo="Regulaciones y estándares tecnológicos" :icono="require('@/assets/curso/temas/tema1/img25.svg')")
         .row
           .col-lg-5.col-10.mb-4.mb-md-0
             figure
@@ -417,7 +417,7 @@
               li
                 i.fas.fa-angle-right
                 p.mb-0 #[b Protocolos institucionales:] muchas organizaciones y entidades gubernamentales desarrollan protocolos internos basados en estas normas internacionales, adaptados a su contexto legal y operativo.
-      .py-4.py-md-5.p-4(titulo="Marco legal nacional (ejemplo Colombia y países hispanoamericanos):" :icono="require('@/assets/curso/temas/tema1/img26.svg')")
+      .py-4.py-md-5.p-4(titulo="Marco legal nacional (ejemplo Colombia y países hispanoamericanos)" :icono="require('@/assets/curso/temas/tema1/img26.svg')")
         .row
           .col-lg-5.col-10.mb-4.mb-md-0
             figure

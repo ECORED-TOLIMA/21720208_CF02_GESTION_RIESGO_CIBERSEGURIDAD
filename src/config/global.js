@@ -142,7 +142,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/CFA_XX_DU.pdf',
+        download: 'downloads/CFA_02_21720208_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -160,7 +160,7 @@ export default {
     {
       tema: '2. Gestión de riesgos de seguridad de la información',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2022, 12 de junio). Tratamiento de riesgos de ciberseguridad [Video]. YouTube.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2022, 12 de junio). <em>Tratamiento de riesgos de ciberseguridad</em> [Video]. YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=X-hUaV0nsnk&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
@@ -168,7 +168,7 @@ export default {
     {
       tema: '2.1 Identificación, evaluación y tratamiento de riesgos',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2023, 24 de junio). Fundamentos para la gestión del riesgo de ciberseguridad [Video]. YouTube.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2023, 24 de junio). <em>Fundamentos para la gestión del riesgo de ciberseguridad</em> [Video]. YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=rIInW1zOe_I&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
@@ -176,14 +176,14 @@ export default {
     {
       tema: '2.1 Identificación, evaluación y tratamiento de riesgos',
       referencia:
-        'Grupo Fraga. (2022, 1 de agosto). Cómo realizar la evaluación de riesgos según la ISO 27001 [Video]. YouTube.',
+        'Grupo Fraga. (2022, 1 de agosto). <em>Cómo realizar la evaluación de riesgos según la ISO 27001</em> [Video]. YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=9w7O4in-Oos&ab_channel=GrupoFraga',
     },
     {
       tema: '2.2 Relación entre análisis forense y gestión de riesgos.',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2021, 1 de junio). Gestión del riesgo [Video]. YouTube.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2021, 1 de junio). <em>Gestión del riesgo</em> [Video]. YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=KU4j7Cio1rk&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
@@ -192,7 +192,7 @@ export default {
       tema:
         '2.3 Herramientas y marcos para la gestión de riesgos (NIST, ISO/IEC 27005)',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (2021, 30 de septiembre). Análisis, valoración de riesgos y controles de ciberseguridad: riesgos [Video]. YouTube.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (2021, 30 de septiembre). <em>Análisis, valoración de riesgos y controles de ciberseguridad: riesgos</em> [Video]. YouTube.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=QLWc_y6HMuA&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
@@ -240,7 +240,7 @@ export default {
         'marco de gestión de riesgos desarrollado por el Instituto Nacional de Estándares y Tecnología de EE. UU., que consta de etapas para categorizar, seleccionar, implementar, evaluar, autorizar y monitorear controles de seguridad.',
     },
     {
-      termino: 'Pentesting (Pruebas de penetración)',
+      termino: '<em>Pentesting</em> (Pruebas de penetración)',
       significado:
         'técnica ofensiva que consiste en simular ataques controlados para identificar vulnerabilidades en sistemas y redes informáticas.',
     },

@@ -104,7 +104,7 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Correcto. Incluyen una variedad de actos como fraude, sabotaje, acceso no autorizado y malware.',
+            'Correcto. Incluyen una variedad de actos como fraude, sabotaje, acceso no autorizado y <em>malware,</em>.',
           mensaje_incorrecto:
             'Incorrecto. Involucran varios delitos como fraude, sabotaje, <em>hacking</em>, etc.',
         },
@@ -276,7 +276,7 @@ export default {
         {
           id: 18,
           texto:
-            'El <em>ransomware</em> es un tipo de malware que bloquea el acceso a los datos hasta que se paga un rescate.',
+            'El <em>ransomware</em> es un tipo de <em>malware</em>, que bloquea el acceso a los datos hasta que se paga un rescate.',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [

@@ -71,11 +71,12 @@
               figure
                 img(src='@/assets/curso/temas/tema2/img7.svg', alt='Imagen decorativa')
             .col-lg-10
-              p.mb-0 Estas etapas conforman un ciclo iterativo y dinámico para mantener la seguridad y resiliencia frente a amenazas cambiantes en sistemas de información 
+              p.mb-0 Estas etapas conforman un ciclo iterativo y dinámico para mantener la seguridad y resiliencia frente a amenazas cambiantes en sistemas de información.
     separador
     #t_2_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.2 Relación entre análisis forense y gestión de riesgos
-    p.mb-4 La relación entre el análisis forense digital y la gestión de riesgos de seguridad de la información es estrecha y complementaria, pues ambos buscan proteger de manera integral los activos digitales y minimizar el impacto de incidentes de seguridad en las organizaciones. 
+    p La relación entre el análisis forense digital y la gestión de riesgos de seguridad de la información es estrecha y complementaria, pues ambos buscan proteger de manera integral los activos digitales y minimizar el impacto de incidentes de seguridad en las organizaciones. 
+    p.mb-4 Al respecto, se dan las siguientes diferenciaciones: 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
@@ -118,7 +119,7 @@
             .col-lg-12
               .bgfondo2
                 .tarjeta.bgblanco
-                  p.mb-0 Este equipo vigila de cerca los posibles peligros: ladrones virtuales, tormentas de malware, accidentes internos, identificando por dónde podrían entrar, qué vulnerabilidades existen y qué medidas hay que reforzar antes de que ocurra un desastre. 
+                  p.mb-0 Este equipo vigila de cerca los posibles peligros: ladrones virtuales, tormentas de #[i malware], accidentes internos, identificando por dónde podrían entrar, qué vulnerabilidades existen y qué medidas hay que reforzar antes de que ocurra un desastre. 
           .row
             .col-lg-12
               .bgfondo3

@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero(data-aos="fade-right")
-        span 3
+        span 4
       h1 Sensibilización de usuarios sobre ciberseguridad
     .row.justify-content-center.align-items-centerr.mb-4
       .col-lg-12(data-aos="zoom-in")
@@ -95,7 +95,7 @@
             li 
               .lista-ol--cuadro__vineta
                 span 5
-              p.mb-0 Revise que los sitios #[ web] sean seguros (inicio con "https").
+              p.mb-0 Revise que los sitios #[i web] sean seguros (inicio con "https").
             li 
               .lista-ol--cuadro__vineta
                 span 6
@@ -116,7 +116,7 @@
           img(src='@/assets/curso/temas/tema4/img8.svg', alt='Imagen decorativa')
       .col-lg-7
         p Sirven para poner a prueba los conocimientos y ver cómo se reacciona ante situaciones reales de riesgo, sin perjudicar los sistemas auténticos. Así, se puede identificar las áreas de mejora y reforzar la protección ante ataques reales. También las campañas de sensibilización (carteles, correos informativos, actividades de grupo) y el esfuerzo de toda la comunidad educativa o laboral, ayudan a construir una cultura de seguridad, donde todos participan activamente y comparten buenas prácticas para protegerse mutuamente.
-        p Un ejemplo de esto, son las pruebas de phishing simuladas.
+        p Un ejemplo de esto, son las pruebas de #[i phishing] simuladas.
 
 
 </template>
