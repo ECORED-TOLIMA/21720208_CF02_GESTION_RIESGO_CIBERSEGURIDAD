@@ -124,7 +124,7 @@
             ul.lista-ul--color
               li
                 i.fas.fa-hand-point-right
-                | Buscar archivos eliminados en un disco con software especializado.
+                p.mb-0 Buscar archivos eliminados en un disco con #[i software] especializado.
               li
                 i.fas.fa-hand-point-right
                 | Analizar los metadatos de fotos para determinar fechas y ubicaciones.

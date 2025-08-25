@@ -374,7 +374,7 @@
         AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
           div(titulo="Formaciones modulares escalables")
             p.mb-0 Existen rutas de aprendizaje que permiten avanzar paso a paso, comenzando con fundamentos básicos y progresando hacia la defensa, el monitoreo, el desarrollo seguro de software, el análisis forense y la simulación de ataques, según el área de interés.
-          div(titulo="Rutas especializadas: #[i Blue team] y #[i Red team]")
+          div(titulo="Rutas especializadas: <em>Blue team</em> y <em>Red team</em>")
             p.mb-0 Algunas trayectorias educativas permiten optar por especializaciones prácticas en defensa (#[i Blue team]: monitoreo, respuesta a incidentes, administración de sistemas seguros) o ataque (Red team: pruebas de penetración, evaluación de seguridad ofensiva).
           div(titulo="Cursos cortos, microcertificaciones y formación en línea")
             p.mb-0 La oferta #[i online] facilita adquirir conocimientos actualizados, a través de cursos breves, certificaciones modulares, laboratorios virtuales, simulaciones realistas y retos de #[i hacking] ético. Este formato es ideal para quienes desean compatibilizar la formación con la vida laboral o actualizarse de manera continua en nuevas tecnologías y amenazas.
