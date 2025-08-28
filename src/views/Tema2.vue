@@ -38,13 +38,13 @@
                 img(src='@/assets/curso/temas/tema2/img4.png', alt='Imagen decorativa')
     p.mb-5 El análisis de riesgos, implica cruzar amenazas y vulnerabilidades, para estimar la probabilidad de ocurrencia y el posible impacto asociado, lo que permite priorizar los riesgos más significativos. Una vez priorizados, se diseña un plan de tratamiento, que puede incluir la implementación de controles técnicos (cortafuegos, cifrado, autenticación multifactor), organizativos (políticas, normas, campañas de concienciación) y procedimientos de respuesta ante incidentes.
     
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-4
       .col-lg-5.col-10.mb-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema2/img5.png', alt='Imagen decorativa')
       .col-lg-7
         p La gestión de riesgos es un proceso continuo, no un esfuerzo aislado. Los riesgos evolucionan por cambios tecnológicos, amenazas emergentes y nuevos marcos regulatorios, por lo que requiere revisiones y actualizaciones periódicas. El marco internacional más reconocido para estructurar esta gestión es la norma ISO/IEC 27005, que promueve un ciclo de mejora continua: identificar, analizar, evaluar, tratar, monitorear y comunicar los riesgos.
-        .cajon.color-primario.p-4.mb-4
+        .cajon.color-primario.p-4
           p.mb-0 La toma de decisiones debe estar documentada y alineada con los objetivos globales del negocio y el cumplimiento normativo. Involucrar a todas las áreas de la organización, desde la alta dirección hasta los usuarios finales, es clave para crear una cultura de seguridad.
 
     separador
@@ -80,14 +80,14 @@
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-5
         .row.justify-content-center.mb-4
-          .col-3
+          .col-lg-3.col-6
             figure
               img(src='@/assets/curso/temas/tema2/img8.svg', alt='Texto que describa la imagen')
         h4.text-center Gestión de riesgos 
         p Mientras la gestión de riesgos se enfoca en identificar, evaluar y tratar las amenazas y vulnerabilidades para prevenir incidentes.
       .col-md.tarjeta.color-secundario.p-5
         .row.justify-content-center.mb-4
-          .col-3
+          .col-lg-3.col-6
             figure
               img(src='@/assets/curso/temas/tema2/img9.svg', alt='Texto que describa la imagen')
         h4.text-center Análisis forense
@@ -96,7 +96,7 @@
       .col-lg-10
         .cajon.color-secundario.p-4.mb-4
           p.mb-0 El análisis forense aporta información valiosa para la gestión de riesgos, ya que sus hallazgos permiten validar o ajustar las hipótesis de amenazas, identificar nuevas vulnerabilidades explotadas y evaluar la efectividad de los controles existentes. 
-    .tarjeta-BG02.px-lg-5.px-4.mb-4
+    .tarjeta-BG02.px-md-5.px-4.mb-4
       .row.justify-content-center.align-items-center
         .col-lg-4.col-8.mb-4(data-aos="zoom-in")
           figure
@@ -113,8 +113,7 @@
             .col-lg-12
               .bgfondo1
                 .tarjeta.bgblanco
-                  p.mb-0 Imagine una ciudad digital donde todos los datos son tesoros guardados en cofres electrónicos, protegidos día y noche por un sistema de vigilancia: la gestión de riesgos. 
-              
+                  p.mb-0 Imagine una ciudad digital donde todos los datos son tesoros guardados en cofres electrónicos, protegidos día y noche por un sistema de vigilancia: la gestión de riesgos.   
           .row
             .col-lg-12
               .bgfondo2
@@ -156,22 +155,20 @@
     p.mb-4 La gestión de riesgos en el ámbito de la seguridad de la información, requiere marcos y herramientas sólidas que permitan a las organizaciones identificar, analizar, tratar y monitorear posibles amenazas. Dos de los marcos más reconocidos internacionalmente son el NIST Risk Management Framework (RMF) y la norma ISO/IEC 27005. A continuación, la explicación de cada uno: 
     TabsB.color-acento-botones.mb-5
       .py-4.py-md-5.p-4(titulo="Marco NIST RMF")
-        .row
-          .col-lg-5.col-10.mb-4.mb-md-0
+        .row.justify-content-center
+          .col-lg-5.col-10.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/temas/tema2/img19.png', alt='Texto que describa la imagen')
-            
+              img(src='@/assets/curso/temas/tema2/img19.png', alt='Texto que describa la imagen')     
           .col-lg-7
-            p Es ampliamente utilizado en los Estados Unidos, especialmente en organismos federales y empresas que requieren altos estándares de seguridad. Consta de seis pasos esenciales: preparación, categorización del sistema, selección de controles de seguridad, implementación de controles, evaluación de controles, autorización del sistema y monitoreo continuo. El proceso parte desde la categorización de los sistemas en función de su impacto potencial, seleccionando controles apropiados basados en publicaciones especializadas como NIST SP 800-37 o SP 800-53, hasta la implementación y supervisión constante de la eficacia de los mismos. Esta estructura fomenta una aproximación adaptable y escalable, facilitando la gestión proactiva del riesgo y la toma de decisiones informadas desde la alta dirección hasta el personal operativo.
+            p.mb-0 Es ampliamente utilizado en los Estados Unidos, especialmente en organismos federales y empresas que requieren altos estándares de seguridad. Consta de seis pasos esenciales: preparación, categorización del sistema, selección de controles de seguridad, implementación de controles, evaluación de controles, autorización del sistema y monitoreo continuo. El proceso parte desde la categorización de los sistemas en función de su impacto potencial, seleccionando controles apropiados basados en publicaciones especializadas como NIST SP 800-37 o SP 800-53, hasta la implementación y supervisión constante de la eficacia de los mismos. Esta estructura fomenta una aproximación adaptable y escalable, facilitando la gestión proactiva del riesgo y la toma de decisiones informadas desde la alta dirección hasta el personal operativo.
       .py-4.py-md-5.p-4(titulo="Norma ISO/IEC 27005")
-        .row
-          .col-lg-5.col-10.mb-4.mb-md-0
+        .row.justify-content-center
+          .col-lg-5.col-10.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/temas/tema2/img20.png', alt='Texto que describa la imagen')
-            
+              img(src='@/assets/curso/temas/tema2/img20.png', alt='Texto que describa la imagen') 
           .col-lg-7
-            p Es una norma internacional dedicada a la gestión de riesgos de seguridad de la información y está alineada con la ISO/IEC 27001, la cual establece los requisitos para los Sistemas de Gestión de Seguridad de la Información (SGSI). ISO/IEC 27005 proporciona directrices para un proceso continuo y estructurado que incluye la definición del contexto, la identificación, análisis y evaluación de riesgos, así como su tratamiento, revisión y comunicación. El establecimiento del contexto implica comprender el entorno organizacional, sus objetivos y parte interesada. Posteriormente, se identifican los riesgos que afectan la confidencialidad, integridad y disponibilidad de la información, se analizan las probabilidades y consecuencias y se comparan con los criterios de aceptación establecidos. En el tratamiento de riesgos, se pueden emplear estrategias como la mitigación, transferencia, aceptación o eliminación del riesgo, mientras que el monitoreo y la revisión aseguran la mejora continua del sistema.
-    p.mb-4 Uno de los principales aportes de la ISO/IEC 27005, es su enfoque flexible, apto para cualquier tipo y tamaño de organización. También enfatiza la interrelación entre los diversos métodos de evaluación de riesgos, permitiendo aproximaciones cualitativas, cuantitativas o semicuantitativas según las necesidades y recursos de la entidad. A diferencia del NIST, que provee listas de controles sugeridos, ISO/IEC 27005 se centra en el marco metodológico, dejando que cada organización adapte los controles y criterios a sus circunstancias particulares, siempre en coherencia con los requisitos de la ISO/IEC 27001.
+            p.mb-0 Es una norma internacional dedicada a la gestión de riesgos de seguridad de la información y está alineada con la ISO/IEC 27001, la cual establece los requisitos para los Sistemas de Gestión de Seguridad de la Información (SGSI). ISO/IEC 27005 proporciona directrices para un proceso continuo y estructurado que incluye la definición del contexto, la identificación, análisis y evaluación de riesgos, así como su tratamiento, revisión y comunicación. El establecimiento del contexto implica comprender el entorno organizacional, sus objetivos y parte interesada. Posteriormente, se identifican los riesgos que afectan la confidencialidad, integridad y disponibilidad de la información, se analizan las probabilidades y consecuencias y se comparan con los criterios de aceptación establecidos. En el tratamiento de riesgos, se pueden emplear estrategias como la mitigación, transferencia, aceptación o eliminación del riesgo, mientras que el monitoreo y la revisión aseguran la mejora continua del sistema.
+    p Uno de los principales aportes de la ISO/IEC 27005, es su enfoque flexible, apto para cualquier tipo y tamaño de organización. También enfatiza la interrelación entre los diversos métodos de evaluación de riesgos, permitiendo aproximaciones cualitativas, cuantitativas o semicuantitativas según las necesidades y recursos de la entidad. A diferencia del NIST, que provee listas de controles sugeridos, ISO/IEC 27005 se centra en el marco metodológico, dejando que cada organización adapte los controles y criterios a sus circunstancias particulares, siempre en coherencia con los requisitos de la ISO/IEC 27001.
     .bloque-texto-g.bloque-texto-g--inverso.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image':`url(${require('@/assets/curso/temas/tema2/img21.png')})`}"
@@ -187,15 +184,14 @@
             img(src='@/assets/curso/temas/tema2/img22.png', alt='Texto que describa la imagen')
           .p-4
             h5 NIST RMF
-            p Posee un enfoque práctico y detallado en los controles de seguridad.
- 
+            p.mb-0 Posee un enfoque práctico y detallado en los controles de seguridad.
       .col-lg-6
         .tarjeta.tarjeta--BG03.h-100
           figure
             img(src='@/assets/curso/temas/tema2/img23.png', alt='Texto que describa la imagen')         
           .p-4
             h5 ISO/IEC 27005
-            p Ofrece una guía metodológica robusta y adaptable.
+            p.mb-0 Ofrece una guía metodológica robusta y adaptable.
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .cajon.color-secundario.p-4.mb-4
@@ -205,71 +201,71 @@
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
       h5 Tabla 2.
       i Marcos y herramientas para la gestión de riesgos
-    .tabla-a.color-acento-contenido.mb-5(data-aos="zoom-in")
+    .tabla-a.color-acento-contenido.mb-5
       table(alt="Texto alternativo tabla")
         thead
-          tr
+          tr(data-aos="fade-right")
             th #[b Aspecto]
             th NIST Risk Management Framework (RMF)
             th ISO/IEC 27005
         tbody
-          tr
+          tr(data-aos="fade-right")
             td #[b Origen]
             td Estados Unidos (NIST).
             td Internacional (ISO/IEC).
-          tr
+          tr(data-aos="fade-right")
             td #[b Aplicación principal]
             td Entes gubernamentales y empresas.
             td Organizaciones de cualquier sector y tamaño.
-          tr
+          tr(data-aos="fade-right")
             td #[b Propósito]
             td Gestión de riesgos de seguridad de sistemas.
             td Gestión de riesgos de la información.
-          tr
+          tr(data-aos="fade-right")
             td #[b Estructura]
             td 6 pasos: preparación, categorización, selección, implementación, evaluación, monitoreo
             td Proceso continuo: contexto, identificación, análisis, evaluación, tratamiento, monitoreo y comunicación.
-          tr
+          tr(data-aos="fade-right")
             td #[b Enfoque]
             td Práctico y detallado, controles prescriptivos.
             td Metodológico, flexible y adaptable.
-          tr
+          tr(data-aos="fade-right")
             td #[b Relación con otras normas]
             td Basado en NIST SP 800-37 y SP 800-53.
             td Alineado con ISO/IEC 27001.
-          tr
+          tr(data-aos="fade-right")
             td #[b Controles de seguridad]
             td Lista específica de controles sugeridos.
             td Definición metodológica, controles elegidos por la organización.
-          tr
+          tr(data-aos="fade-right")
             td #[b Métodos de valoración]
             td Normalmente cualitativo, con algunos cuantitativos.
             td Permite enfoques cualitativos, cuantitativos y semicuantitativos.
-          tr
+          tr(data-aos="fade-right")
             td #[b Mejora continua]
             td Énfasis en monitoreo y revisión.
             td Énfasis en revisión continua y mejora.
-          tr
+          tr(data-aos="fade-right")
             td #[b Adaptabilidad]
             td Escalable y adaptable a diferentes escenarios.
             td Altamente flexible y adaptable.
-          tr
+          tr(data-aos="fade-right")
             td #[b Cultura organizacional]
             td Promueve responsabilidad y concientización.
             td Promueve cultura de gestión de riesgos.
-          tr
+          tr(data-aos="fade-right")
             td #[b Automatización y soporte]
             td Facilita reportes y seguimiento automatizados.
             td Admite integración con herramientas y automatización.
-          tr
+          tr(data-aos="fade-right")
             td #[b Decisión de controles]
             td Basado en impacto y categorización.
             td Basado en contexto y criterios propios.
-          tr
+          tr(data-aos="fade-right")
             td #[b Compatibilidad]
             td Integrable con otros marcos NIST.
             td Integra con otros estándares ISO.
-          tr
+          tr(data-aos="fade-right")
             td #[b Regulatorio]
             td Requerido en gobierno federal de EE. UU.
             td Recomendado internacionalmente.

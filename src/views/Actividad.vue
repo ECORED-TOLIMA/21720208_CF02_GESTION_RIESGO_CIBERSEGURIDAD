@@ -22,7 +22,7 @@ export default {
         {
           id: 1,
           texto:
-            'La ciberseguridad solo protege computadoras y no datos ni redes.',
+            'La ciberseguridad solo protege computadoras y no datos ni redes.',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
@@ -30,9 +30,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Correcto. La ciberseguridad protege computadoras, datos, redes y otros dispositivos frente a amenazas digitales.',
+            'La ciberseguridad protege computadoras, datos, redes y otros dispositivos frente a amenazas digitales.',
           mensaje_incorrecto:
-            'Incorrecto. La ciberseguridad abarca la protección de computadoras, datos y redes.',
+            'La ciberseguridad abarca la protección de computadoras, datos y redes.',
         },
         {
           id: 2,
@@ -45,9 +45,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto. La ciberseguridad surge a partir del desarrollo de redes informáticas entre los años 50 y 60.',
+            'La ciberseguridad surge a partir del desarrollo de redes informáticas entre los años 50 y 60.',
           mensaje_incorrecto:
-            'Incorrecto. La ciberseguridad surgió con las primeras redes y conexiones de computadoras.',
+            'La ciberseguridad surgió con las primeras redes y conexiones de computadoras.',
         },
         {
           id: 3,
@@ -60,9 +60,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto. La confidencialidad es una característica básica de la ciberseguridad, junto con la integridad y la disponibilidad.',
+            'La confidencialidad es una característica básica de la ciberseguridad, junto con la integridad y la disponibilidad.',
           mensaje_incorrecto:
-            'Incorrecto. La confidencialidad, junto con integridad y disponibilidad, son pilares de la ciberseguridad.',
+            'La confidencialidad, junto con integridad y disponibilidad, son pilares de la ciberseguridad.',
         },
         {
           id: 4,
@@ -75,9 +75,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Correcto. Todas las empresas, independientemente del tipo de datos, están expuestas a riesgos y deben proteger su información y sistemas.',
+            'Todas las empresas, independientemente del tipo de datos, están expuestas a riesgos y deben proteger su información y sistemas.',
           mensaje_incorrecto:
-            'Incorrecto. Todas las empresas deben proteger su información y sistemas, sin importar el tipo de dato.',
+            'Todas las empresas deben proteger su información y sistemas, sin importar el tipo de dato.',
         },
         {
           id: 5,
@@ -89,9 +89,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto. La Ley 1273 es un marco legal clave para la protección frente a delitos informáticos en Colombia.',
+            'La Ley 1273 es un marco legal clave para la protección frente a delitos informáticos en Colombia.',
           mensaje_incorrecto:
-            'Incorrecto. Esta ley regula y sanciona delitos informáticos en el país.',
+            'Esta ley regula y sanciona delitos informáticos en el país.',
         },
         {
           id: 6,
@@ -104,9 +104,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Correcto. Incluyen una variedad de actos como fraude, sabotaje, acceso no autorizado y <em>malware,</em>.',
+            'Incluyen una variedad de actos como fraude, sabotaje, acceso no autorizado y <em>malware,</em>.',
           mensaje_incorrecto:
-            'Incorrecto. Involucran varios delitos como fraude, sabotaje, <em>hacking</em>, etc.',
+            'Involucran varios delitos como fraude, sabotaje, <em>hacking</em>, etc.',
         },
         {
           id: 7,
@@ -119,9 +119,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Correcto. Los actores pueden ser individuos o grupos organizados (cibercriminales, hacktivistas, etc.).',
+            'Los actores pueden ser individuos o grupos organizados (cibercriminales, hacktivistas, etc.).',
           mensaje_incorrecto:
-            'Incorrecto. Existen tanto individuos como grupos organizados en el cibercrimen.',
+            'Existen tanto individuos como grupos organizados en el cibercrimen.',
         },
         {
           id: 8,
@@ -134,9 +134,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto. Es una técnica ampliamente utilizada para obtener información mediante el engaño.',
+            'Es una técnica ampliamente utilizada para obtener información mediante el engaño.',
           mensaje_incorrecto:
-            'Incorrecto. El <em>phishing</em> es una de las técnicas más comunes en ciberataques.',
+            'El <em>phishing</em> es una de las técnicas más comunes en ciberataques.',
         },
         {
           id: 9,
@@ -149,9 +149,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Correcto. Incluye <em>hardware, software</em>, redes, almacenamiento y procesos de gestión.',
+            'Incluye <em>hardware, software</em>, redes, almacenamiento y procesos de gestión.',
           mensaje_incorrecto:
-            'Incorrecto. Comprende <em>hardware, software</em>, redes, almacenamiento y más.',
+            'Comprende <em>hardware, software</em>, redes, almacenamiento y más.',
         },
         {
           id: 10,
@@ -164,9 +164,8 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto. Ambas figuran están entre las tendencias líderes para el entorno digital actual.',
-          mensaje_incorrecto:
-            'Incorrecto. Son tendencias clave para el futuro de las TI.',
+            'Ambas figuran están entre las tendencias líderes para el entorno digital actual.',
+          mensaje_incorrecto: 'Son tendencias clave para el futuro de las TI.',
         },
         {
           id: 11,
@@ -179,9 +178,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Correcto. La gestión de incidentes incluye la identificación, respuesta y recuperación frente a amenazas.',
+            'La gestión de incidentes incluye la identificación, respuesta y recuperación frente a amenazas.',
           mensaje_incorrecto:
-            'Incorrecto. Se requiere identificar, responder y recuperarse de incidentes.',
+            'Se requiere identificar, responder y recuperarse de incidentes.',
         },
         {
           id: 12,
@@ -194,9 +193,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto. El Centro de Operaciones de Seguridad, se encarga del monitoreo y respuesta a incidentes en la organización.',
+            'El Centro de Operaciones de Seguridad, se encarga del monitoreo y respuesta a incidentes en la organización.',
           mensaje_incorrecto:
-            'Incorrecto. El SOC sí cumple esta función en la ciberseguridad organizacional.',
+            'El SOC sí cumple esta función en la ciberseguridad organizacional.',
         },
         {
           id: 13,
@@ -209,9 +208,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Correcto. Abarca recuperación, investigación y análisis de incidentes de seguridad.',
+            'Abarca recuperación, investigación y análisis de incidentes de seguridad.',
           mensaje_incorrecto:
-            'Incorrecto. El análisis forense también investiga e identifica evidencias e incidentes.',
+            'El análisis forense también investiga e identifica evidencias e incidentes.',
         },
         {
           id: 14,
@@ -224,9 +223,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto. Ambos son marcos de referencia ampliamente utilizados en gestión de riesgos.',
+            'Ambos son marcos de referencia ampliamente utilizados en gestión de riesgos.',
           mensaje_incorrecto:
-            'Incorrecto. Son estándares internacionales para la gestión de riesgos.',
+            'Son estándares internacionales para la gestión de riesgos.',
         },
         {
           id: 15,
@@ -239,9 +238,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Correcto. Es esencial estar en constante capacitación y formación para adaptarse a las nuevas amenazas y tecnologías.',
+            'Es esencial estar en constante capacitación y formación para adaptarse a las nuevas amenazas y tecnologías.',
           mensaje_incorrecto:
-            'Incorrecto. La formación es clave para desempeñarse en ciberseguridad.',
+            'La formación es clave para desempeñarse en ciberseguridad.',
         },
         {
           id: 16,
@@ -254,9 +253,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto. Certificaciones internacionales validan conocimientos y habilidades profesionales.',
+            'Certificaciones internacionales validan conocimientos y habilidades profesionales.',
           mensaje_incorrecto:
-            'Incorrecto. Estas certificaciones son reconocidas en el ámbito profesional.',
+            'Estas certificaciones son reconocidas en el ámbito profesional.',
         },
         {
           id: 17,
@@ -269,9 +268,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto. Es necesario cumplir la normativa local o internacional para validar la evidencia.',
+            'Es necesario cumplir la normativa local o internacional para validar la evidencia.',
           mensaje_incorrecto:
-            'Incorrecto. El cumplimiento legal es obligatorio en el análisis forense.',
+            'El cumplimiento legal es obligatorio en el análisis forense.',
         },
         {
           id: 18,
@@ -284,9 +283,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto. Es una de las formas más comunes y peligrosas de cibercrimen hoy día.',
+            'Es una de las formas más comunes y peligrosas de cibercrimen hoy día.',
           mensaje_incorrecto:
-            'Incorrecto. El <em>ransomware</em> funciona cifrando datos y pidiendo rescate por ellos.',
+            'El <em>ransomware</em> funciona cifrando datos y pidiendo rescate por ellos.',
         },
         {
           id: 19,
@@ -299,9 +298,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: true },
           ],
           mensaje_correcto:
-            'Correcto. Personas, pymes y grandes empresas pueden ser blanco de ataques cibernéticos.',
+            'Personas, pymes y grandes empresas pueden ser blanco de ataques cibernéticos.',
           mensaje_incorrecto:
-            'Incorrecto. Todas las organizaciones y usuarios pueden ser víctimas.',
+            'Todas las organizaciones y usuarios pueden ser víctimas.',
         },
         {
           id: 20,
@@ -314,9 +313,9 @@ export default {
             { id: 'b', texto: 'Falso', esCorrecta: false },
           ],
           mensaje_correcto:
-            'Correcto. Es un proceso central para prevenir daños en las organizaciones.',
+            'Es un proceso central para prevenir daños en las organizaciones.',
           mensaje_incorrecto:
-            'Incorrecto. Ayuda precisamente a identificar y gestionar amenazas a la información.',
+            'Ayuda precisamente a identificar y gestionar amenazas a la información.',
         },
       ],
       mensaje_final_aprobado:

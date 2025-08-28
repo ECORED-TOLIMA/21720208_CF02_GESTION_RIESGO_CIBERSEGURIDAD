@@ -71,9 +71,9 @@
         .titulo.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
           h5.mb-0 Hábitos responsables para una buena ciberseguridad
-    .tarjeta-BG02.px-lg-5.px-4
+    .tarjeta-BG02.px-md-5.px-4
       .row.justify-content-center.align-items-center.mb-4
-        .col-lg-6
+        .col-lg-6.order-lg-1.order-2
           p Es importante tener en cuenta las siguientes recomendaciones:
           ol.lista-ol--cuadro.lista-ol--separador
             li 
@@ -104,7 +104,7 @@
               .lista-ol--cuadro__vineta
                 span 7
               p.mb-0 Bloquee el computador o celular cuando no los use.
-        .col-lg-4.col-6.mb-4.mb-lg-0(data-aos="flip-up")
+        .col-lg-4.col-8.order-lg-2.order-1.mb-4.mb-lg-0(data-aos="flip-up")
           figure
             img(src='@/assets/curso/temas/tema4/img7.png', alt='Imagen decorativa')
     .titulo.mb-5(data-aos="fade-left")

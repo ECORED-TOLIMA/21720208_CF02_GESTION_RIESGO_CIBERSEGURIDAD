@@ -30,7 +30,7 @@
             iframe(width="1246" height="701" src="https://www.youtube.com/embed/LzvHFdnPJlQ" title="Análisis forense y profesionalización en ciberseguridad  - Caso 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
 
     separador
-    .tarjeta-BG02.px-lg-5.px-4
+    .tarjeta-BG02.px-md-5.px-4
       #t_1_1.titulo-segundo.color-acento-contenido(data-aos="flip-up")
         h2 1.1	Conceptos fundamentales del análisis forense digital
       p El análisis forense digital es una disciplina encargada de identificar, recolectar, preservar, analizar y presentar evidencia digital de manera que garantice su integridad y utilidad en procesos legales o investigaciones de seguridad. Implica el uso de técnicas especializadas para evitar la alteración de los datos y su correcto procesamiento, con el objetivo de reconstruir hechos, descubrir actividades sospechosas y aportar información válida ante las autoridades.
@@ -66,11 +66,11 @@
     p.mb-4 A continuación, se relacionan algunos ejemplos: 
     .tarjeta.tarjeta--gris.fondo.p-4
       LineaTiempoC.color-acento-contenido(text-small)
-        .row(titulo="Identificación")
-          .col-md-6
+        .row.justify-content-center(titulo="Identificación")
+          .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/img2.jpg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6
             h4 Identificación
             ul.lista-ul--color
               li 
@@ -82,11 +82,11 @@
               li
                 i.fas.fa-hand-point-right
                 | Detectar tráfico de red anormal en un servidor empresarial.
-        .row(titulo="Recolección")
-          .col-md-6
+        .row.justify-content-center(titulo="Recolección")
+          .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/img3.jpg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6
             h4 Recolección
             ul.lista-ul--color
               li
@@ -99,11 +99,11 @@
                 i.fas.fa-hand-point-right
                 | Recolectar registros de acceso de una base de datos.
             
-        .row(titulo="Preservación")
-          .col-md-6
+        .row.justify-content-center(titulo="Preservación")
+          .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/img4.jpg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6
             h4 Preservación
             ul.lista-ul--color
               li
@@ -115,11 +115,11 @@
               li
                 i.fas.fa-hand-point-right
                 | Mantener los precintos de seguridad y etiquetas intactas durante el traslado de la evidencia.
-        .row(titulo="Análisis")
-          .col-md-6
+        .row.justify-content-center(titulo="Análisis")
+          .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/img5.jpg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6
             h4 Análisis
             ul.lista-ul--color
               li
@@ -131,11 +131,11 @@
               li
                 i.fas.fa-hand-point-right
                 | Examinar logs de actividad para identificar accesos no autorizados.
-        .row(titulo="Documentación")
-          .col-md-6
+        .row.justify-content-center(titulo="Documentación")
+          .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/img6.jpg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6
             h4 Documentación
             ul.lista-ul--color
               li
@@ -147,11 +147,11 @@
               li
                 i.fas.fa-hand-point-right
                 | Escribir un informe que describa procedimientos, herramientas utilizadas y resultados.
-        .row(titulo="Presentación")
-          .col-md-6
+        .row.justify-content-center(titulo="Presentación")
+          .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/img7.jpg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6
             h4 Presentación
             ul.lista-ul--color
               li
@@ -163,11 +163,11 @@
               li
                 i.fas.fa-hand-point-right
                 | Responder preguntas de abogados o jueces sobre la validez de las pruebas.
-        .row(titulo="Cadena de custodia")
-          .col-md-6
+        .row.justify-content-center(titulo="Cadena de custodia")
+          .col-lg-6.col-10.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/temas/tema1/img8.jpg', alt='Texto que describa la imagen')
-          .col-md-6.mb-4.mb-md-0
+          .col-lg-6
             h4 Cadena de custodia
             ul.lista-ul--color
               li
@@ -383,11 +383,10 @@
     p.mb-4 El análisis de evidencia digital se rige por diversas normativas internacionales y nacionales, así como por estándares técnicos, ampliamente reconocidos en el ámbito forense. Estos marcos normativos buscan garantizar la validez, integridad y admisibilidad de la evidencia en procesos legales o administrativos. Los principales son: 
     TabsB.color-acento-botones.mb-5
       .py-4.py-md-5.p-4(titulo="Normas ISO/IEC" :icono="require('@/assets/curso/temas/tema1/img24.svg')")
-        .row
-          .col-lg-5.col-10.mb-4.mb-md-0
+        .row.justify-content-center
+          .col-lg-5.col-10.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/temas/tema1/img21.jpg', alt='Texto que describa la imagen')
-            
           .col-lg-7
             ul.lista-ul
               li
@@ -404,11 +403,10 @@
                 p.mb-0 #[b ISO/IEC 27041:2015:] establece directrices sobre la garantía de idoneidad y eficacia de los métodos y herramientas utilizadas en investigaciones digitales.
 
       .py-4.py-md-5.p-4(titulo="Regulaciones y estándares tecnológicos" :icono="require('@/assets/curso/temas/tema1/img25.svg')")
-        .row
-          .col-lg-5.col-10.mb-4.mb-md-0
+        .row.justify-content-center
+          .col-lg-5.col-10.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/temas/tema1/img22.jpg', alt='Texto que describa la imagen')
-            
           .col-lg-7
             ul.lista-ul
               li
@@ -418,11 +416,10 @@
                 i.fas.fa-angle-right
                 p.mb-0 #[b Protocolos institucionales:] muchas organizaciones y entidades gubernamentales desarrollan protocolos internos basados en estas normas internacionales, adaptados a su contexto legal y operativo.
       .py-4.py-md-5.p-4(titulo="Marco legal nacional (ejemplo Colombia y países hispanoamericanos)" :icono="require('@/assets/curso/temas/tema1/img26.svg')")
-        .row
-          .col-lg-5.col-10.mb-4.mb-md-0
+        .row.justify-content-center
+          .col-lg-5.col-10.mb-4.mb-lg-0
             figure
               img(src='@/assets/curso/temas/tema1/img23.jpg', alt='Texto que describa la imagen')
-            
           .col-lg-7
             ul.lista-ul
               li
