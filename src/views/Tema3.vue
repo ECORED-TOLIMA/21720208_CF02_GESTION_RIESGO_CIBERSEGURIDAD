@@ -333,8 +333,8 @@
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.3	Educación formal y rutas de formación en ciberseguridad
-    p.mb-5 La educación formal y las rutas de formación en ciberseguridad, ofrecen hoy un abanico amplio y flexible para quienes desean ingresar, especializarse o avanzar dentro de este dinámico campo profesional, sin importar su punto de partida.
-
+    p La educación formal y las rutas de formación en ciberseguridad, ofrecen hoy un abanico amplio y flexible para quienes desean ingresar, especializarse o avanzar dentro de este dinámico campo profesional, sin importar su punto de partida.
+    p.mb-5 La formación académica en ciberseguridad ofrece múltiples alternativas según el nivel de especialización y el enfoque profesional deseado. A continuación, se presentan los principales tipos de programas y su orientación: 
     .titulo.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0 Educación formal en ciberseguridad

@@ -91,7 +91,7 @@
             ul.lista-ul--color
               li
                 i.fas.fa-hand-point-right
-                | Clonar el contenido de un #[i smartphone], usando herramientas forenses.
+                p.mb-0 Clonar el contenido de un #[i smartphone], usando herramientas forenses.
               li
                 i.fas.fa-hand-point-right
                 | Extraer archivos de un servidor utilizando técnicas que evitan modificar los datos originales.
