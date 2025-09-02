@@ -166,7 +166,7 @@
         .row.justify-content-center(titulo="Cadena de custodia")
           .col-lg-6.col-10.mb-lg-0.mb-4
             figure
-              img(src='@/assets/curso/temas/tema1/img8.jpg', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img8_1.jpg', alt='Texto que describa la imagen')
           .col-lg-6
             h4 Cadena de custodia
             ul.lista-ul--color

@@ -125,59 +125,39 @@
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0 Tendencias clave del mercado profesional
     p.mb-4 El mercado profesional de la ciberseguridad evoluciona rápidamente, impulsado por la tecnología, la globalización y las nuevas amenazas digitales. A continuación, se destacan algunas de las tendencias clave que marcan su desarrollo: 
-    .row.justify-content-center.mb-5
-      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema3/img13.png", alt="alt")
-          .crd_hover_txt--body
-            .tit-tarj.p-3
-              .acordion__accion.acordion__accion__btn--b.h3.mb-0
-                i.fas.fa-angle-up
-              .ubicar
-                h4.mb-3 Crecimiento de las inversiones
-            div.p-3
-              p.mt-3 Las empresas invertirán más de 212,000 millones USD en ciberseguridad en 2025, representando un crecimiento del 11 % interanual.
-      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema3/img14.png", alt="alt")
-          .crd_hover_txt--body
-            .tit-tarj.p-3
-              .acordion__accion.acordion__accion__btn--b.h3.mb-0
-                i.fas.fa-angle-up
-              .ubicar
-                h4.mb-3 Mercado internacionalizado
-            div.p-3
-              p.mt-3 El talento puede acceder a oportunidades laborales globales, gracias a la adopción del trabajo remoto e híbrido, lo que amplifica la competencia, pero también la oferta.
-      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema3/img15.png", alt="alt")
-          .crd_hover_txt--body
-            .tit-tarj.p-3
-              .acordion__accion.acordion__accion__btn--b.h3.mb-0
-                i.fas.fa-angle-up
-              .ubicar
-                h4.mb-3 Automatización e inteligencia artificial
-            div.p-3
-              p.mt-3 Si bien la IA automatiza tareas y redefine algunos perfiles, también abre nuevas áreas de especialización, como la supervisión ética y la ciberdefensa proactiva basada en modelos inteligentes.
-      .col-xl-3.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
-        .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema3/img16.png", alt="alt")
-          .crd_hover_txt--body
-            .tit-tarj.p-3
-              .acordion__accion.acordion__accion__btn--b.h3.mb-0
-                i.fas.fa-angle-up
-              .ubicar
-                h4.mb-3 Formación continua
-            div.p-3
-              p.mt-3 La actualización constante es obligatoria; empresas y profesionales apuestan por certificaciones, másteres y programas de especialización para adaptarse a un entorno cambiante.
+    .row.mb-5
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .indicador--hover(v-if="indicadorTarjetaSlide")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h4 Crecimiento de las inversiones
+              p Las empresas invertirán más de 212,000 millones USD en ciberseguridad en 2025, representando un crecimiento del 11 % interanual.
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img13_1.png')})`}")
+
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img14_1.png')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h4 Mercado internacionalizado
+              p El talento puede acceder a oportunidades laborales globales, gracias a la adopción del trabajo remoto e híbrido, lo que amplifica la competencia, pero también la oferta.
+
+      .col-sm-6.col-xl-3.mb-4.mb-sm-0
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img15_1.png')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h4 Automatización e inteligencia artificial
+              p Si bien la IA automatiza tareas y redefine algunos perfiles, también abre nuevas áreas de especialización, como la supervisión ética y la ciberdefensa proactiva basada en modelos inteligentes.
+
+      .col-sm-6.col-xl-3
+        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+          .tarjeta-slide__contenedor
+            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img16_1.png')})`}")
+            .tarjeta-slide__contenido.p-4.p-xl-5
+              h4 Formación continua
+              p La actualización constante es obligatoria; empresas y profesionales apuestan por certificaciones, másteres y programas de especialización para adaptarse a un entorno cambiante.
     p.mb-4 El crecimiento de la ciberseguridad varía según la región, con algunos países destacando por su rápida generación de oportunidades y aumento en inversiones. A continuación, se presenta un panorama internacional y el contexto específico de Colombia: 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.desktop
@@ -273,7 +253,7 @@
           figure
             img(src='@/assets/curso/temas/tema3/img19.png', alt='Imagen decorativa' style='margin-bottom: -23px;')
         .col-lg-8(data-aos="fade-left")
-          SlyderF.color-acento-botones(columnas="col-lg-6 col-xl-6")
+          SlyderF.color-acento-botones(columnas="col-lg-4 col-xl-4")
             .tarjeta.bgblanco3.p-4
               .row.justify-content-center.mb-3
                 .col-4
@@ -333,8 +313,8 @@
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.3	Educación formal y rutas de formación en ciberseguridad
-    p La educación formal y las rutas de formación en ciberseguridad, ofrecen hoy un abanico amplio y flexible para quienes desean ingresar, especializarse o avanzar dentro de este dinámico campo profesional, sin importar su punto de partida.
-    p.mb-5 La formación académica en ciberseguridad ofrece múltiples alternativas según el nivel de especialización y el enfoque profesional deseado. A continuación, se presentan los principales tipos de programas y su orientación: 
+    p.mb-5 La educación formal y las rutas de formación en ciberseguridad, ofrecen hoy un abanico amplio y flexible para quienes desean ingresar, especializarse o avanzar dentro de este dinámico campo profesional, sin importar su punto de partida.
+    
     .titulo.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0 Educación formal en ciberseguridad

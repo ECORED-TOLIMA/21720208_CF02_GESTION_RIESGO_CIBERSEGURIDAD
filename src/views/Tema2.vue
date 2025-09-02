@@ -16,34 +16,34 @@
       .col-lg-10
         PasosA.color-acento-contenido(tipo="n")
           .row(titulo="")
-            .col-lg-8.order-2.order-lg-1
+            .col-lg-6.order-2.order-lg-1
               h4 Identificación
               p Comienza con la identificación de los activos críticos: información confidencial, sistemas financieros, bases de datos de clientes o dispositivos de red.
-            .col-lg-4.col-8.mb-md-4.order-1.order-lg-2
+            .col-lg-6.col-8.mb-md-4.order-1.order-lg-2
               figure
                 img(src='@/assets/curso/temas/tema2/img2.png', alt='Imagen decorativa')
           .row(titulo="")
-            .col-lg-4.col-8.mb-md-4
+            .col-lg-6.col-8.mb-md-4
               figure
                 img(src='@/assets/curso/temas/tema2/img3.png', alt='Imagen decorativa')
-            .col-lg-8
+            .col-lg-6
               h4 Reconocimiento y análisis
               p Posteriormente, se reconocen y analizan las amenazas que podrían afectar estos activos, como #[i malware], ataques de #[i phishing], errores humanos, desastres naturales o acciones internas malintencionadas.
           .row(titulo="")
-            .col-lg-8.order-2.order-lg-1
+            .col-lg-6.order-2.order-lg-1
               h4 Evaluación
               p Finalmente, se realiza una evaluación sistemática de vulnerabilidades; esto abarca desde brechas en el #[i software], hasta malas configuraciones e insuficiente capacitación del personal. 
-            .col-lg-4.col-8.mb-md-4.order-1.order-lg-2
+            .col-lg-6.col-8.mb-md-4.order-1.order-lg-2
               figure
                 img(src='@/assets/curso/temas/tema2/img4.png', alt='Imagen decorativa')
     p.mb-5 El análisis de riesgos, implica cruzar amenazas y vulnerabilidades, para estimar la probabilidad de ocurrencia y el posible impacto asociado, lo que permite priorizar los riesgos más significativos. Una vez priorizados, se diseña un plan de tratamiento, que puede incluir la implementación de controles técnicos (cortafuegos, cifrado, autenticación multifactor), organizativos (políticas, normas, campañas de concienciación) y procedimientos de respuesta ante incidentes.
     
-    .row.justify-content-center.align-items-center.mb-4
+    .row.mb-4
       .col-lg-5.col-10.mb-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema2/img5.png', alt='Imagen decorativa')
       .col-lg-7
-        p La gestión de riesgos es un proceso continuo, no un esfuerzo aislado. Los riesgos evolucionan por cambios tecnológicos, amenazas emergentes y nuevos marcos regulatorios, por lo que requiere revisiones y actualizaciones periódicas. El marco internacional más reconocido para estructurar esta gestión es la norma ISO/IEC 27005, que promueve un ciclo de mejora continua: identificar, analizar, evaluar, tratar, monitorear y comunicar los riesgos.
+        p.mb-5 La gestión de riesgos es un proceso continuo, no un esfuerzo aislado. Los riesgos evolucionan por cambios tecnológicos, amenazas emergentes y nuevos marcos regulatorios, por lo que requiere revisiones y actualizaciones periódicas. El marco internacional más reconocido para estructurar esta gestión es la norma ISO/IEC 27005, que promueve un ciclo de mejora continua: identificar, analizar, evaluar, tratar, monitorear y comunicar los riesgos.
         .cajon.color-primario.p-4
           p.mb-0 La toma de decisiones debe estar documentada y alineada con los objetivos globales del negocio y el cumplimiento normativo. Involucrar a todas las áreas de la organización, desde la alta dirección hasta los usuarios finales, es clave para crear una cultura de seguridad.
 

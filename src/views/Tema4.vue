@@ -35,14 +35,14 @@
             p La información sensible son todos aquellos datos que, si se hicieran públicos o llegaran a manos indebidas, causarían daño a una persona u organización. Incluye nombres completos, números de identificación, cuentas bancarias, contraseñas, información médica, etc.
             p #[b Consecuencias de no protegerla:] robo de identidad, pérdidas económicas, daño a la reputación
           .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/temas/tema4/img3.png' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema4/img4.png' alt="Imagen decorativa")
         .row.justify-content-center
           .col-lg-6.order-lg-1.order-2
             h4 Cumplimiento normativo: ¿Qué es y para qué sirve?
             p El cumplimiento normativo en ciberseguridad es seguir las leyes y estándares que regulan la protección de datos y sistemas. Su objetivo es garantizar la privacidad y la seguridad digital, evitando sanciones legales, pérdida de confianza y otros riesgos.
             p #[b Ejemplo en Colombia:] Ley 1273 de 2009, que sanciona los delitos informáticos
           .col-lg-6.col-12.order-lg-2.order-1.mb-lg-0.mb-4
-            img(src='@/assets/curso/temas/tema4/img3.png' alt="Imagen decorativa")
+            img(src='@/assets/curso/temas/tema4/img5.png' alt="Imagen decorativa")
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         .titulo.mb-5(data-aos="fade-left")
@@ -111,10 +111,10 @@
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0 Las simulaciones de ataques 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3.col-6.mb-4.mb-lg-0(data-aos="flip-up")
+      .col-lg-2.col-6.mb-4.mb-lg-0(data-aos="flip-up")
         figure
           img(src='@/assets/curso/temas/tema4/img8.svg', alt='Imagen decorativa')
-      .col-lg-7
+      .col-lg-10
         p Sirven para poner a prueba los conocimientos y ver cómo se reacciona ante situaciones reales de riesgo, sin perjudicar los sistemas auténticos. Así, se puede identificar las áreas de mejora y reforzar la protección ante ataques reales. También las campañas de sensibilización (carteles, correos informativos, actividades de grupo) y el esfuerzo de toda la comunidad educativa o laboral, ayudan a construir una cultura de seguridad, donde todos participan activamente y comparten buenas prácticas para protegerse mutuamente.
         p Un ejemplo de esto, son las pruebas de #[i phishing] simuladas.
 
