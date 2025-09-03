@@ -102,7 +102,7 @@
           h5.mb-0 Perfiles y habilidades más demandados
         p.mb-4 Las empresas buscan perfiles variados y cada vez más especializados, entre los que destacan: 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-6.order-1.order-lg-1
+      .col-lg-6.order-2.order-lg-1
         LineaTiempoD.color-acento-botones
           div(numero="1" titulo="Chief Information Security Officer (CISO)").p-3
             p.mb-0 Estratega encargado de liderar la política de seguridad y la protección de los activos informáticos.
@@ -114,7 +114,7 @@
             p.mb-0 Encargado de poner a prueba los sistemas y validar la robustez de las defensas.
           div(numero="5" titulo="Data Protection Officer (DPO)").p-3
             p.mb-0 Supervisor del cumplimiento normativo en privacidad y protección de datos.
-      .col-lg-4.col-8.order-1.order-lg-2(data-aos="zoom-in")
+      .col-lg-4.col-8.order-1.order-lg-2.mb-4(data-aos="zoom-in")
         figure
           img(src='@/assets/curso/temas/tema3/img12.png', alt='Imagen decorativa')
     .row.justify-content-center.align-items-center.mb-5
@@ -125,39 +125,70 @@
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0 Tendencias clave del mercado profesional
     p.mb-4 El mercado profesional de la ciberseguridad evoluciona rápidamente, impulsado por la tecnología, la globalización y las nuevas amenazas digitales. A continuación, se destacan algunas de las tendencias clave que marcan su desarrollo: 
-    .row.mb-5
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .indicador--hover(v-if="indicadorTarjetaSlide")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h4 Crecimiento de las inversiones
-              p Las empresas invertirán más de 212,000 millones USD en ciberseguridad en 2025, representando un crecimiento del 11 % interanual.
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img13_1.png')})`}")
+    .movil
+      .row.justify-content-center.align-items-center.mb-5
+        .col-10
+          .tarjeta.tarjeta--BG05.p-4
+            figure.mb-3
+              img(src='@/assets/curso/temas/tema3/img13_2.jpg', alt='Imagen decorativa')
+            h4 Crecimiento de las inversiones
+            p Las empresas invertirán más de 212,000 millones USD en ciberseguridad en 2025, representando un crecimiento del 11 % interanual.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-10
+          .tarjeta.tarjeta--BG05.p-4
+            figure.mb-3
+              img(src='@/assets/curso/temas/tema3/img14_2.jpg', alt='Imagen decorativa')
+            h4 Mercado internacionalizado
+            p El talento puede acceder a oportunidades laborales globales, gracias a la adopción del trabajo remoto e híbrido, lo que amplifica la competencia, pero también la oferta.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-10
+          .tarjeta.tarjeta--BG05.p-4
+            figure.mb-3
+              img(src='@/assets/curso/temas/tema3/img15_2.jpg', alt='Imagen decorativa')
+            h4 Automatización e inteligencia artificial
+            p Si bien la IA automatiza tareas y redefine algunos perfiles, también abre nuevas áreas de especialización, como la supervisión ética y la ciberdefensa proactiva basada en modelos inteligentes.
+      .row.justify-content-center.align-items-center.mb-5
+        .col-10
+          .tarjeta.tarjeta--BG05.p-4
+            figure.mb-3
+              img(src='@/assets/curso/temas/tema3/img16_2.jpg', alt='Imagen decorativa')
+            h4 Formación continua
+            p La actualización constante es obligatoria; empresas y profesionales apuestan por certificaciones, másteres y programas de especialización para adaptarse a un entorno cambiante.
 
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img14_1.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h4 Mercado internacionalizado
-              p El talento puede acceder a oportunidades laborales globales, gracias a la adopción del trabajo remoto e híbrido, lo que amplifica la competencia, pero también la oferta.
+    .desktop
+      .row.mb-5
+        .col-6.col-md-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+            .indicador--hover(v-if="indicadorTarjetaSlide")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4 Crecimiento de las inversiones
+                p Las empresas invertirán más de 212,000 millones USD en ciberseguridad en 2025, representando un crecimiento del 11 % interanual.
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img13_1.png')})`}")
 
-      .col-sm-6.col-xl-3.mb-4.mb-sm-0
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img15_1.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h4 Automatización e inteligencia artificial
-              p Si bien la IA automatiza tareas y redefine algunos perfiles, también abre nuevas áreas de especialización, como la supervisión ética y la ciberdefensa proactiva basada en modelos inteligentes.
+        .col-6.col-md-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img14_1.png')})`}")
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4 Mercado internacionalizado
+                p El talento puede acceder a oportunidades laborales globales, gracias a la adopción del trabajo remoto e híbrido, lo que amplifica la competencia, pero también la oferta.
 
-      .col-sm-6.col-xl-3
-        .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-          .tarjeta-slide__contenedor
-            .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img16_1.png')})`}")
-            .tarjeta-slide__contenido.p-4.p-xl-5
-              h4 Formación continua
-              p La actualización constante es obligatoria; empresas y profesionales apuestan por certificaciones, másteres y programas de especialización para adaptarse a un entorno cambiante.
+        .col-6.col-md-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img15_1.png')})`}")
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4 Automatización e inteligencia artificial
+                p Si bien la IA automatiza tareas y redefine algunos perfiles, también abre nuevas áreas de especialización, como la supervisión ética y la ciberdefensa proactiva basada en modelos inteligentes.
+
+        .col-6.col-md-3.mb-4.mb-xl-0
+          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
+            .tarjeta-slide__contenedor
+              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img16_1.png')})`}")
+              .tarjeta-slide__contenido.p-4.p-xl-5
+                h4 Formación continua
+                p La actualización constante es obligatoria; empresas y profesionales apuestan por certificaciones, másteres y programas de especialización para adaptarse a un entorno cambiante.
     p.mb-4 El crecimiento de la ciberseguridad varía según la región, con algunos países destacando por su rápida generación de oportunidades y aumento en inversiones. A continuación, se presenta un panorama internacional y el contexto específico de Colombia: 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10.desktop
