@@ -11,7 +11,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img1.png', alt='Imagen decorativa')
     
-    p.mb-5 La gestión de riesgos de seguridad de la información, es una disciplina esencial que toda persona y empresa debe comprender para proteger adecuadamente sus activos más valiosos. El riesgo, en este contexto, se define como la posibilidad de que una amenaza explote una vulnerabilidad, ocasionando un impacto negativo sobre los recursos informáticos, ya sean datos, servicios o infraestructura. Una correcta gestión, lleva los siguientes pasos: 
+    p.mb-5 La gestión de riesgos de seguridad de la información es una disciplina esencial que toda persona y empresa debe comprender para proteger adecuadamente sus activos más valiosos. El riesgo, en este contexto, se define como la posibilidad de que una amenaza explote una vulnerabilidad, ocasionando un impacto negativo sobre los recursos informáticos, ya sean datos, servicios o infraestructura. Una correcta gestión, lleva los siguientes pasos: 
     .row.justify-content-center.align-items-center.mb-4
       .col-lg-10
         PasosA.color-acento-contenido(tipo="n")
@@ -36,7 +36,7 @@
             .col-lg-6.col-8.mb-md-4.order-1.order-lg-2
               figure
                 img(src='@/assets/curso/temas/tema2/img4.png', alt='Imagen decorativa')
-    p.mb-5 El análisis de riesgos, implica cruzar amenazas y vulnerabilidades, para estimar la probabilidad de ocurrencia y el posible impacto asociado, lo que permite priorizar los riesgos más significativos. Una vez priorizados, se diseña un plan de tratamiento, que puede incluir la implementación de controles técnicos (cortafuegos, cifrado, autenticación multifactor), organizativos (políticas, normas, campañas de concienciación) y procedimientos de respuesta ante incidentes.
+    p.mb-5 El análisis de riesgos implica cruzar amenazas y vulnerabilidades, para estimar la probabilidad de ocurrencia y el posible impacto asociado, lo que permite priorizar los riesgos más significativos. Una vez priorizados, se diseña un plan de tratamiento, que puede incluir la implementación de controles técnicos (cortafuegos, cifrado, autenticación multifactor), organizativos (políticas, normas, campañas de concienciación) y procedimientos de respuesta ante incidentes.
     
     .row.mb-4
       .col-lg-5.col-10.mb-4(data-aos="zoom-in")
@@ -104,7 +104,7 @@
         .col-lg-8
           p De esta manera se retroalimenta el ciclo de mejora continua de la seguridad organizacional, fortaleciendo las defensas y reduciendo la probabilidad y el impacto de futuros ataques. Además, la gestión de riesgos define protocolos y políticas de actuación que aseguran que el análisis forense se realice respetando la integridad y cadena de custodia de la evidencia, lo que es fundamental para que los resultados sean admisibles en procesos legales o auditorías. En un contexto organizacional, ambos procesos deben estar integrados en los planes de respuesta a incidentes y en las estrategias de seguridad para garantizar una reacción rápida, coordinada y eficaz frente a las amenazas. 
 
-    p Por ejemplo, la identificación temprana de riesgos mediante evaluaciones, permite preparar y capacitar equipos forenses que actúen eficientemente tras un incidente; a su vez, los informes forenses detallados facilitan la toma de decisiones sobre qué riesgos priorizar y qué controles implementar o mejorar. La integración de análisis forense y gestión de riesgos, también contribuye a la resiliencia organizacional al permitir aprender de incidentes pasados, detectar patrones y anticipar tendencias de ataques. Así, la gestión de riesgos y el análisis forense se complementan en la protección y recuperación de los sistemas de información, reflejando un enfoque proactivo y reactivo necesario para la seguridad integral en entornos digitales modernos.
+    p Por ejemplo, la identificación temprana de riesgos mediante evaluaciones permite preparar y capacitar equipos forenses que actúen eficientemente tras un incidente; a su vez, los informes forenses detallados facilitan la toma de decisiones sobre qué riesgos priorizar y qué controles implementar o mejorar. La integración de análisis forense y gestión de riesgos también contribuye a la resiliencia organizacional al permitir aprender de incidentes pasados, detectar patrones y anticipar tendencias de ataques. Así, la gestión de riesgos y el análisis forense se complementan en la protección y recuperación de los sistemas de información, reflejando un enfoque proactivo y reactivo necesario para la seguridad integral en entornos digitales modernos.
     p.mb-4 Analice la siguiente historia para tener mayor claridad sobre estas dos acciones: 
     .tarjeta--BG044.p-4.px-md-5.mb-4
       .tarjeta.tarjeta--BG04.p-4.my-4(data-aos="fade-left")
@@ -152,7 +152,7 @@
     separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 2.3	Herramientas y marcos para la gestión de riesgos (NIST, ISO/IEC 27005)
-    p.mb-4 La gestión de riesgos en el ámbito de la seguridad de la información, requiere marcos y herramientas sólidas que permitan a las organizaciones identificar, analizar, tratar y monitorear posibles amenazas. Dos de los marcos más reconocidos internacionalmente son el NIST Risk Management Framework (RMF) y la norma ISO/IEC 27005. A continuación, la explicación de cada uno: 
+    p.mb-4 La gestión de riesgos en el ámbito de la seguridad de la información requiere marcos y herramientas sólidas que permitan a las organizaciones identificar, analizar, tratar y monitorear posibles amenazas. Dos de los marcos más reconocidos internacionalmente son el NIST Risk Management Framework (RMF) y la norma ISO/IEC 27005. A continuación, la explicación de cada uno: 
     TabsB.color-acento-botones.mb-5
       .py-4.py-md-5.p-4(titulo="Marco NIST RMF")
         .row.justify-content-center

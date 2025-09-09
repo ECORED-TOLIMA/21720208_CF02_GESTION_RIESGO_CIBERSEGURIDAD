@@ -183,7 +183,7 @@
     separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 1.2	Proceso forense en ciberseguridad organizacional
-    p.mb-4 El proceso forense en ciberseguridad organizacional, es un conjunto de procedimientos estructurados para identificar, contener, analizar y remediar incidentes de seguridad, asegurando la validez y la integridad de la evidencia digital.
+    p.mb-4 El proceso forense en ciberseguridad organizacional es un conjunto de procedimientos estructurados para identificar, contener, analizar y remediar incidentes de seguridad, asegurando la validez y la integridad de la evidencia digital.
     p.mb-4 Al respecto, se destacan los siguientes: 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="fade-left")
@@ -223,7 +223,7 @@
                     p.mb-0  #[b Etiquetado y documentación]: cada evidencia se archiva y etiqueta meticulosamente, detallando fecha, hora, responsable y condiciones de recolección.
                   li
                     i.fas.fa-circle
-                    p.mb-0  #[b Verificación de integridad]: se usan #[i hash] criptográficos (MD5, SHA-1, SHA-256) para garantizar que la evidencia no sea alterada durante el análisis.
+                    p.mb-0  #[b Verificación de integridad]: se usan #[i hashes] criptográficos (MD5, SHA-1, SHA-256) para garantizar que la evidencia no sea alterada durante el análisis.
                   li
                     i.fas.fa-circle
                     p.mb-0  #[b Análisis preliminar]: se visualizan logs iniciales buscando actividad sospechosa (inicios de sesión, conexiones externas, eliminación de archivos).

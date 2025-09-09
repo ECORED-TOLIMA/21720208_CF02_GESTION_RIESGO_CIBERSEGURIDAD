@@ -3,7 +3,7 @@ export default {
     componenteFormativo:
       'Análisis forense y profesionalización en ciberseguridad',
     descripcionCurso:
-      'La profesionalización en la ciberseguridad, es clave para garantizar que los especialistas cuenten con la formación, certificaciones y competencias técnicas y éticas necesarias para desarrollar su labor con efectividad y rigor. Además, la gestión de riesgos y la actualización constante son elementos críticos para enfrentar las amenazas en un entorno digital en constante evolución. Esta combinación fortalece la seguridad organizacional y promueve la confianza en los usuarios finales. ',
+      'La profesionalización en la ciberseguridad es clave para garantizar que los especialistas cuenten con la formación, certificaciones y competencias técnicas y éticas necesarias para desarrollar su labor con efectividad y rigor. Además, la gestión de riesgos y la actualización constante son elementos críticos para enfrentar las amenazas en un entorno digital en constante evolución. Esta combinación fortalece la seguridad organizacional y promueve la confianza en los usuarios finales. ',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -279,12 +279,12 @@ export default {
     },
     {
       referencia:
-        'National Institute of Standards and Technology (NIST). (2024, 26 de febrero). The NIST Cybersecurity Framework (CSF) 2.0.',
+        'National Institute of Standards and Technology (NIST). (2024, 26 de febrero). <em>The NIST Cybersecurity Framework (CSF)</em> 2.0.',
       link: 'https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.29.pdf',
     },
     {
       referencia:
-        'Paredes, A. R. Z., Quevedo, I. M. S., & Chalacán, L. J. M. (2020). Seguridad informática en las PyMES de la ciudad de Quevedo. Journal of Business and Entrepreneurial Studies: JBES, 4(2), 232-241.',
+        'Paredes, A. R. Z., Quevedo, I. M. S., & Chalacán, L. J. M. (2020). Seguridad informática en las PyMES de la ciudad de Quevedo. <em>Journal of Business and Entrepreneurial Studies: JBES</em>, 4(2), 232-241.',
       link: '',
     },
     {

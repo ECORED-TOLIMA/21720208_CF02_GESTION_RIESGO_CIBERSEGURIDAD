@@ -38,7 +38,7 @@
         .row(titulo="2025")
           .col-lg-6.order-2.order-lg-1
             h4 Actualidad (2025)
-            p La ciberseguridad es reconocida como una de las carreras más demandadas y estratégicas a nivel global. El mercado laboral enfrenta una enorme brecha de talento: se estima que actualmente se tiene hasta 3.5 millones de vacantes sin cubrir. Los perfiles profesionales se han diversificado enormemente, abarcando desde técnicos especializados (analistas, ingenieros, pentesters, analistas forenses) hasta estrategas (CISO, consultores, auditores, responsables de cumplimiento normativo).
+            p La ciberseguridad es reconocida como una de las carreras más demandadas y estratégicas a nivel global. El mercado laboral enfrenta una enorme brecha de talento: se estima que actualmente se tiene hasta 3.5 millones de vacantes sin cubrir. Los perfiles profesionales se han diversificado enormemente, abarcando desde técnicos especializados (analistas, ingenieros, #[i pentesters], analistas forenses) hasta estrategas (CISO, consultores, auditores, responsables de cumplimiento normativo).
           .col-lg-6.col-10.mb-4.mb-lg-0.order-1.order-lg-2
             figure
               img(src='@/assets/curso/temas/tema3/img5.png', alt='Texto que describa la imagen')
@@ -96,7 +96,7 @@
         .titulo.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
           h5.mb-0 Alta demanda y brecha de talento
-        p.mb-5 La escasez de profesionales, es uno de los retos más destacados en la actualidad: como se mencionó previamente, la brecha global alcanza los 3.5 millones de vacantes sin cubrir, según reportes de la industria. El incremento de ataques cibernéticos —en particular #[i ransomware] y amenazas avanzadas a infraestructuras críticas— ha hecho que la protección digital sea una prioridad, incluso para pequeñas y medianas empresas, sectores financieros, sanitarios y gobiernos. Esta situación convierte la ciberseguridad en una carrera de futuro casi garantizado, con enorme proyección de empleabilidad y altos niveles de estabilidad laboral.
+        p.mb-5 La escasez de profesionales es uno de los retos más destacados en la actualidad: como se mencionó previamente, la brecha global alcanza los 3.5 millones de vacantes sin cubrir, según reportes de la industria. El incremento de ataques cibernéticos —en particular #[i ransomware] y amenazas avanzadas a infraestructuras críticas— ha hecho que la protección digital sea una prioridad, incluso para pequeñas y medianas empresas, sectores financieros, sanitarios y gobiernos. Esta situación convierte la ciberseguridad en una carrera de futuro casi garantizado, con enorme proyección de empleabilidad y altos niveles de estabilidad laboral.
         .titulo.mb-5(data-aos="fade-left")
           img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
           h5.mb-0 Perfiles y habilidades más demandados
@@ -344,7 +344,7 @@
     separador
     #t_3_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
       h2 3.3	Educación formal y rutas de formación en ciberseguridad
-    p.mb-5 La educación formal y las rutas de formación en ciberseguridad, ofrecen hoy un abanico amplio y flexible para quienes desean ingresar, especializarse o avanzar dentro de este dinámico campo profesional, sin importar su punto de partida.
+    p.mb-5 La educación formal y las rutas de formación en ciberseguridad ofrecen hoy un abanico amplio y flexible para quienes desean ingresar, especializarse o avanzar dentro de este dinámico campo profesional, sin importar su punto de partida.
     
     .titulo.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
