@@ -19,7 +19,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="1246" height="701" src="https://www.youtube.com/embed/gaIBAjLKUBE" title="Análisis forense y profesionalización en ciberseguridad  - Caso 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+            iframe(width="1246" height="701" src="https://www.youtube.com/embed/SF3k-mpGLe8" title="Análisis forense y profesionalización en ciberseguridad  - Caso 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
     .titulo.mb-5(data-aos="fade-left")
       img(src='@/assets/curso/temas/icon.svg', alt='Imagen decorativa')
       h5.mb-0 Caso # 2
@@ -27,7 +27,7 @@
       .col-lg-12
         figure
           .video
-            iframe(width="1246" height="701" src="https://www.youtube.com/embed/LzvHFdnPJlQ" title="Análisis forense y profesionalización en ciberseguridad  - Caso 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+            iframe(width="1246" height="701" src="https://www.youtube.com/embed/1lSY0gJHj34" title="Análisis forense y profesionalización en ciberseguridad  - Caso 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
 
     separador
     .tarjeta-BG02.px-md-5.px-4
