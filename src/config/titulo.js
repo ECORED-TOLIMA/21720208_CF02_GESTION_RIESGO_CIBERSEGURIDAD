@@ -1,1 +1,1 @@
-module.exports = 'ECOBASE_SENA'
+module.exports = 'Análisis forense y profesionalización en ciberseguridad'
